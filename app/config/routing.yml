@@ -1,3 +1,7 @@
+site_general:
+    resource: "@siteGeneralBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
