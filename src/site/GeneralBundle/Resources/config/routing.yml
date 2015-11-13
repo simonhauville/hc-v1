@@ -1,3 +1,7 @@
 site_general_homepage:
     path:     /hello/{name}
     defaults: { _controller: siteGeneralBundle:Default:index }
+
+hello_the_world:
+    path:     /hello-world
+    defaults: { _controller: siteGeneralBundle:Advert:index }
